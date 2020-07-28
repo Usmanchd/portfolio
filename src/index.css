@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: 'Comfortaa', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.brnone {
+  border: none;
+  text-decoration: none;
+  color: black;
+}
+.brnone:hover {
+  border: none;
+  text-decoration: none;
+  color: black;
+}
+article {
+  -webkit-box-shadow: 5px 8px 9px 5px rgba(0, 0, 0, 0.54);
+  box-shadow: 5px 8px 9px 5px rgba(0, 0, 0, 0.54);
+  transform: scale(0.95);
+  transition: all 0.3s ease-in-out;
+  padding: 10px 2px !important;
+}
+article:hover {
+  transform: scale(1);
+}
+/* .hovereffect {
+  transform: scale(0.98);
+  transition: all 0.3s ease-in-out;
+}
+.hovereffect:hover {
+  transform: scale(1.02);
+} */
