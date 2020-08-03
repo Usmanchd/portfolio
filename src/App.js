@@ -78,7 +78,11 @@ function App() {
               return (
                 <article
                   className="col-6 col-12-xsmall col-md-offset-2 work-item card"
-                  style={{ textAlign: 'center' }}
+                  style={{
+                    textAlign: 'center',
+                    justifyContent: 'space-between',
+                    border: '0px',
+                  }}
                 >
                   <img
                     src={portfolioItem.image}
@@ -88,33 +92,35 @@ function App() {
                     // style={{ backgroundSize: 'cover' }}
                   />
                   <h2 style={{ textAlign: 'center', margin: '2px' }}>
-                    {portfolioItem.projectName}
+                    <u> {portfolioItem.projectName} </u>
                   </h2>
                   <p>{portfolioItem.projectdescription}</p>
-                  <a
-                    href={portfolioItem.projectCode}
-                    target="_blank"
-                    className="brnone"
-                  >
-                    <button
-                      type="button"
-                      className="btn btn-outline-secondary mb-1 w-100"
+                  <span>
+                    <a
+                      href={portfolioItem.projectCode}
+                      target="_blank"
+                      className="brnone"
                     >
-                      Show Code
-                    </button>
-                  </a>
-                  <a
-                    href={portfolioItem.projectPage}
-                    target="_blank"
-                    className="brnone"
-                  >
-                    <button
-                      type="button"
-                      className="btn btn-outline-secondary mt-1 w-100"
+                      <button
+                        type="button"
+                        className="btn btn-outline-secondary mb-1 w-100"
+                      >
+                        Show Code
+                      </button>
+                    </a>
+                    <a
+                      href={portfolioItem.projectPage}
+                      target="_blank"
+                      className="brnone"
                     >
-                      Show Project
-                    </button>
-                  </a>
+                      <button
+                        type="button"
+                        className="btn btn-outline-secondary mt-1 w-100"
+                      >
+                        Show Project
+                      </button>
+                    </a>
+                  </span>
                 </article>
               );
             })}
