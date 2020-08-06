@@ -3,6 +3,25 @@ body {
   font-family: 'Comfortaa', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #1b1b1b;
+  color: white;
+}
+h1,
+h2 {
+  color: #938eff;
+}
+
+/* .parallax {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.815)),
+    url(./data/hey.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+article h2 {
+  color: white;
 }
 
 code {
@@ -25,6 +44,7 @@ article {
   transform: scale(0.95);
   transition: all 0.3s ease-in-out;
   padding: 0px !important;
+  background-color: #181818ec !important;
 }
 article:hover {
   transform: scale(1);
@@ -47,3 +67,129 @@ article span {
 .hovereffect:hover {
   transform: scale(1.02);
 } */
+
+.aboutme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.aboutme span {
+  width: 50%;
+}
+.aboutme img {
+  width: 50%;
+}
+
+.btn-outline-primary {
+  color: #6c63ff;
+  border-color: #6c63ff;
+}
+
+#one {
+  position: relative;
+}
+
+#one h1 {
+  position: absolute;
+  width: 0px !important;
+  color: #6b63ff9a;
+  opacity: 0.1;
+}
+#one .usman {
+  top: 10px;
+  left: 100px;
+  transform: rotate(-4deg);
+  font-size: 115px !important;
+}
+
+#one .webdev {
+  top: 290px;
+  left: 170px;
+  transform: rotate(0deg);
+  font-size: 55px !important;
+}
+
+.portfolio {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(1deg);
+}
+
+.portfolio h2 {
+  position: relative;
+  width: 0px;
+  top: -58px;
+  left: -29px;
+  z-index: 1;
+}
+
+.portfolio h1 {
+  position: relative;
+  width: 0px;
+  color: #6c63ff;
+  opacity: 0.15;
+  font-size: 25px !important;
+}
+.portfolio .react {
+  top: -98px;
+  left: -180px;
+  transform: rotate(-3deg);
+}
+
+.portfolio .node {
+  top: 80px;
+  left: -140px;
+  transform: rotate(-2deg);
+}
+
+.portfolio .express {
+  top: -80px;
+  left: 480px;
+  transform: rotate(-4deg);
+}
+
+.portfolio .mongodb {
+  top: 110px;
+  left: 450px;
+  transform: rotate(-1deg);
+}
+
+@media only screen and (max-width: 600px) {
+  /* .aboutme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  } */
+
+  #one h1 {
+    display: none;
+  }
+
+  .portfolio {
+    transform: rotate(0deg);
+  }
+  .portfolio h1 {
+    display: none;
+  }
+  .portfolio h2 {
+    position: initial;
+    width: 100%;
+    padding-top: 20px;
+  }
+
+  .portfolio img {
+    display: none;
+  }
+
+  .aboutme span {
+    width: 70%;
+  }
+  .aboutme img {
+    display: none;
+  }
+}
