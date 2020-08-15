@@ -3,7 +3,7 @@ import React from 'react';
 export default function Headings({
   animation,
   duration = '1000',
-  offset = '250',
+  offset = '200',
   easing = 'ease-in-out',
   delay = '600',
   text,

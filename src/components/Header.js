@@ -8,7 +8,7 @@ export default function Header() {
           <img src="images/avatar.jpg" alt="" />
         </span>
         <h1>
-          <strong>Hey, My name is Usman</strong>
+          <strong>Hey, My name is <span className='my-name'>Usman</span></strong>
         </h1>
         <h1>I am a Full Stack Web Developer</h1>
         <h1>

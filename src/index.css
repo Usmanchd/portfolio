@@ -1,12 +1,17 @@
+@font-face {
+  font-family: 'HelloStockholm';
+  src: url('./components/fonts/HelloStockholm-Regular.ttf') format('truetype');
+}
+
 body {
   margin: 0;
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #1b1b1b;
   color: white;
 }
-h1,
+npm h1,
 h2 {
   color: #938eff;
 }
@@ -19,6 +24,48 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover;
 } */
+
+/* .my-name {
+  font-family: 'HelloStockholm', sans-serif;
+  letter-spacing: 4px;
+  line-height: 0;
+  font-size: 50px;
+} */
+
+/* #main::after {
+  position: absolute;
+  right: 772px;
+  content: '';
+  width: 174px;
+  height: 170px;
+  top: 430px;
+  z-index: -99;
+  opacity: 0.09;
+  background: url(./data/dottedgrid.svg);
+} */
+
+/* #main::before {
+  position: absolute;
+  right: 72px;
+  content: '';
+  width: 160px;
+  height: 170px;
+  top: 0px;
+  z-index: -99;
+  opacity: 0.4;
+  background: url(./data/work.svg);
+} */
+
+#one .vine::after {
+  position: absolute;
+  left: -53px;
+  content: '';
+  width: 207px;
+  height: 202px;
+  top: 6px;
+  z-index: -99;
+  background: url(./data/vine.svg);
+}
 
 article h2 {
   color: white;
@@ -96,19 +143,22 @@ article span {
   width: 0px !important;
   color: #6b63ff9a;
   opacity: 0.1;
+  font-family: 'HelloStockholm', sans-serif;
+  letter-spacing: 4px;
 }
 #one .usman {
-  top: 10px;
-  left: 100px;
+  top: -36px;
+  left: 145px;
   transform: rotate(-4deg);
-  font-size: 115px !important;
+  font-size: 215px !important;
+  font-weight: lighter;
 }
 
 #one .webdev {
-  top: 290px;
-  left: 170px;
+  top: 229px;
+  left: 257px;
   transform: rotate(0deg);
-  font-size: 55px !important;
+  font-size: 123px !important;
 }
 
 .portfolio {
@@ -120,18 +170,22 @@ article span {
 }
 
 .portfolio h2 {
+  font-family: 'HelloStockholm', sans-serif;
   position: relative;
   width: 0px;
   top: -58px;
-  left: -29px;
+  left: -31px;
   z-index: 1;
+  font-size: 93px;
+  line-height: 0.9;
+  letter-spacing: 4px;
 }
 
 .portfolio h1 {
   position: relative;
   width: 0px;
   color: #6c63ff;
-  opacity: 0.15;
+  opacity: 0.1;
   font-size: 25px !important;
 }
 .portfolio .react {
@@ -190,6 +244,9 @@ article span {
     width: 70%;
   }
   .aboutme img {
+    display: none;
+  }
+  #one .vine::after {
     display: none;
   }
 }

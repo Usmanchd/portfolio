@@ -6,7 +6,10 @@ import { portfolioItems } from '../data/data';
 export default function PortfolioItems() {
   return (
     <section id="two" style={{ paddingTop: '8px' }}>
-      <span className="portfolio" style={{ paddingBottom: '34px' }}>
+      <span
+        className="portfolio"
+        style={{ paddingBottom: '74px', paddingTop: '60px' }}
+      >
         <Headings
           animation="fade-up-left"
           text="Reactjs"
@@ -34,11 +37,11 @@ export default function PortfolioItems() {
 
         <div
           data-aos="fade-down-right"
-          data-aos-duration="1000"
+          data-aos-duration="900"
           data-aos-offset="250"
           data-aos-easing="ease-in-out"
           data-aos-mirror="true"
-          data-aos-once="true"
+          data-aos-once="false"
           style={{
             zIndex: '1',
           }}
@@ -52,11 +55,11 @@ export default function PortfolioItems() {
           alt="portfolio"
           width="65%"
           data-aos="fade-up"
-          data-aos-duration="800"
-          data-aos-offset="230"
+          data-aos-duration="700"
+          data-aos-offset="200"
           data-aos-easing="ease-in-out"
           data-aos-mirror="true"
-          data-aos-once="true"
+          data-aos-once="false"
         />
       </span>
       <PortfolioItem portfolioItems={portfolioItems} />
