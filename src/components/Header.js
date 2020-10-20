@@ -4,9 +4,9 @@ export default function Header() {
   return (
     <header id="header">
       <div className="inner">
-        <span className="image avatar">
+        {/* <span className="image avatar">
           <img src="images/avatar.jpg" alt="" />
-        </span>
+        </span> */}
         <h1>
           <strong>Hey, My name is <span className='my-name'>Usman</span></strong>
         </h1>

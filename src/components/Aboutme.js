@@ -26,10 +26,10 @@ export default function Aboutme() {
             <h2>About Me!</h2>
           </header>
           <p>
-            My name is Usman and I am Self taught Mern stack, react Native
-            Developer
-            <br /> Highly motivated, self-starting web developer seeking to
-            launch a career building web application and services
+            My name is Usman and I am Self taught Mern stack
+            <br /> I am a Professional Full stack developer working in this
+            field for more than 2 years. I have worked on many full stack
+            application
           </p>
         </span>
         {/* <ul className="actions">

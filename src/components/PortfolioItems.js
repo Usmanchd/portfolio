@@ -36,9 +36,9 @@ export default function PortfolioItems() {
         />
 
         <div
-          data-aos="fade-down-right"
+          data-aos="fade-in"
           data-aos-duration="900"
-          data-aos-offset="250"
+          data-aos-offset="150"
           data-aos-easing="ease-in-out"
           data-aos-mirror="true"
           data-aos-once="false"
@@ -46,11 +46,23 @@ export default function PortfolioItems() {
             zIndex: '1',
           }}
         >
-          <h2>
-            My Por<span style={{ color: 'white' }}>tfolio</span>
+          <h2
+            style={{
+              backgroundColor: 'white',
+            }}
+          >
+            My Por
+            <span
+              style={{
+                color: 'white',
+                backgroundColor: '#6c63ff',
+              }}
+            >
+              tfolio.
+            </span>
           </h2>
         </div>
-        <img
+        {/* <img
           src="images/portfolio.svg"
           alt="portfolio"
           width="65%"
@@ -60,7 +72,7 @@ export default function PortfolioItems() {
           data-aos-easing="ease-in-out"
           data-aos-mirror="true"
           data-aos-once="false"
-        />
+        /> */}
       </span>
       <PortfolioItem portfolioItems={portfolioItems} />
     </section>

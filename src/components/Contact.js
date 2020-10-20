@@ -19,7 +19,7 @@ export default function Contact() {
           <h3 className="icon solid fa-mobile-alt">
             <span className="label">Phone</span>
           </h3>
-          0333-4381689
+          +92-333-4381689
         </li>
         <li>
           <h3 className="icon solid fa-envelope">

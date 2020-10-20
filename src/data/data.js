@@ -30,6 +30,13 @@ export const portfolioItems = [
     image: 'images/thumbs/03.jpg',
   },
   {
+    projectName: 'K.Khaddar',
+    projectdescription: 'A Clothing shop for fabric build with mern stack ',
+    projectCode: '',
+    projectPage: 'https://synergysol.herokuapp.com/',
+    image: 'images/thumbs/07.jpg',
+  },
+  {
     projectName: 'Good Pizza',
     projectdescription: 'A fast food e-commerce Site, Build with React',
     projectCode: 'https://github.com/Usmanchd/goodpizza',
